@@ -380,7 +380,7 @@ box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
   }
   
   .name, .number, .email {
-    font-size: 10px; 
+    font-size: small; 
   }
 
   .footer{
