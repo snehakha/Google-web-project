@@ -86,6 +86,7 @@ cursor: pointer;
 
 .box:hover {
   transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(138, 43, 226, 0.9);
 }
 
 .box h2 {
