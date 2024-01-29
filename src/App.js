@@ -272,7 +272,7 @@ function App() {
       <div className="sections">
 
         <section id="facts">
-          <p>Wecome to Facts section. In this section we discuss about the changing climate pattern, faqs and much much more!</p>
+          <p>Wecome to Facts section. In this section we discuss about the changing climate pattern, evidences and much more </p>
           <ul>
             <p>Select a topic</p>
             <li><a href='https://rohammaiti.github.io/Evidences/' target='_blank' rel='noopener noreferrer' onClick={handleClick1}>Evidences</a></li>
