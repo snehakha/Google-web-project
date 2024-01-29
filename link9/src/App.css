@@ -1,0 +1,85 @@
+.header{
+  color: azure;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.intro{
+  text-align: center;
+  color: blueviolet;
+  font-size: larger;
+}
+
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+}
+
+.gallery-item {
+  width: 20%; 
+  margin: 10px;
+  text-align: center;
+  border: 2px solid orangered;
+  border-radius: 5px;
+  background: #fff;
+}
+
+.gallery-item img{
+  border-radius: 10px;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.image-text {
+  margin-top: 5px;
+  font-size: 14px; 
+  color: black;
+}
+
+.show-more-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.show-more-btn:hover {
+  background: linear-gradient(to right, #182848, #4b6cb7);
+}
+
+.home-btn{
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orangered;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.home-btn a:link{
+  color: black;
+}
+
+.home-btn a:visited{
+  color: black;
+}
+
+.home-btn:hover{
+  background-color: chartreuse;
+}
