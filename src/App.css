@@ -199,6 +199,11 @@ box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
   transition: 0.5s;
 }
 
+.shift{
+  text-align: center;
+  padding: 25px;
+}
+
 .datasection img:hover{
   transform: scale(1.5);
 }
@@ -274,13 +279,15 @@ box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
 }
 
 .number{
-  color: aliceblue;
+  color: red;
   font-size: larger;
+  font-weight: bolder;
 }
 
 .email{
-  color: aliceblue;
+  color: red;
   font-size: larger;
+  font-weight: bolder;
 }
 
 .text-overlay {
@@ -294,8 +301,9 @@ box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
 }
 
 .name{
-  color: gold;
+  color: red;
   font-size: x-large;
+  font-weight: bolder;
 }
 
 .form-para{
@@ -321,6 +329,7 @@ box-shadow: 0 0 20px rgba(0, 0, 255, 0.7);
   .box{
     width: 100%;
     margin-right: 0%;
+    margin-top: 25px;
   }
 
   .data-cards {
