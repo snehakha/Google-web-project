@@ -272,7 +272,7 @@ function App() {
       <div className="sections">
 
         <section id="facts">
-          <p>Wecome to Facts section. In this section we discuss about the changing climate pattern, evidences and much more </p>
+          <p className='shift'>Wecome to Facts section. In this section we discuss about the changing climate pattern, evidences and much more </p>
           <ul>
             <p>Select a topic</p>
             <li><a href='https://rohammaiti.github.io/Evidences/' target='_blank' rel='noopener noreferrer' onClick={handleClick1}>Evidences</a></li>
@@ -286,7 +286,7 @@ function App() {
         </section>
 
         <section id="solutions">
-          <p>Wecome to the Solutions section. In this section we discuss about various solutions and actions that has been taken globally to combat the changing climate. </p>
+          <p className='shift'>Wecome to the Solutions section. In this section we discuss about various solutions and actions that has been taken globally to combat the changing climate. </p>
           <ul>
             <p>Select a topic</p>
             <li><a href="https://rohammaiti.github.io/proposed-activity/" target='_blank' rel='noopener noreferrer' onClick={handleClick5}>Proposed activities for tackling climate change</a></li>
@@ -299,7 +299,7 @@ function App() {
         </section>
 
         <section id="explore">
-          <p>Welcome to Explore section. In this section, we will get materials to teach younger generations about our planet through quizes, videos and images!</p>
+          <p className='shift'>Welcome to Explore section. In this section, we will get materials to teach younger generations about our planet through quizes, videos and images!</p>
           <ul>
             <p>Select a topic</p>
             <li><a href='https://rohammaiti.github.io/Gallery/' target='_blank' rel='noopener noreferrer' onClick={handleClick9}>Earth Gallery</a></li>
