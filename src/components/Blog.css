@@ -1,0 +1,95 @@
+.body-part {
+    margin: 20px;
+  }
+  
+  .choose-file-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .upload-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    margin-left: 30px;
+  }
+  
+  .upload-btn:hover {
+    background-color: #45a049;
+  }
+  
+  .uploaded-image {
+    max-width: 80%;
+    height: 500px; 
+    display: block;
+    margin: 0 auto; 
+    position: relative; 
+    border-radius: 20px;
+    transition: box-shadow 0.3s ease;
+  }
+
+  .uploaded-image:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .image-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .nav-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prev-btn {
+    margin-right: 10px; 
+  }
+  
+  .next-btn {
+    margin-left: 10px; 
+  }
+  
+  .delete-btn {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;   
+    margin-top: 20px;  
+  }
+  
+  .delete-btn:hover {
+    background-color: #ff0000;
+  }
+  
+  @media screen and (max-width: 570px) {
+    .uploaded-image {
+      max-width: 75%; 
+    }
+  }
+  
+  .uploaded-image:hover {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); 
+  }
