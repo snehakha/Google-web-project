@@ -33,116 +33,6 @@ function App() {
     setCurrentIndex((prevIndex) => (prevIndex + direction + totalImages) % totalImages);
   };
 
-  const handleClick1 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/Evidences/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick2 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/weather-vs-climate/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick3 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/changing-climate/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick4 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/extreme-weather/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick5 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/proposed-activity/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick6 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/solutions-underway/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick7 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/solutions-implemented/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick8 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/ongoing-activities/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick9 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/Gallery/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick10 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/quiz/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
-  const handleClick11 = () => {
-    const permissionGranted = window.confirm("Do you want to procced?");
-    if (permissionGranted) {
-      window.location.href = 'https://rohammaiti.github.io/videos/'
-    }
-    else {
-      window.location.href = 'https://rohammaiti.github.io/Earth_guardians/'
-    }
-  }
-
 
   return (
 
@@ -276,10 +166,10 @@ function App() {
           <p className='shift'>Wecome to Facts section. In this section we discuss about the changing climate pattern, evidences and much more </p>
           <ul>
             <p>Select a topic</p>
-            <li><a href='https://rohammaiti.github.io/Evidences/' target='_blank' rel='noopener noreferrer' onClick={handleClick1}>Evidences</a></li>
-            <li><a href='https://rohammaiti.github.io/weather-vs-climate/' target='_blank' rel='noopener noreferrer' onClick={handleClick2}>What is weather and climate</a></li>
-            <li><a href='https://rohammaiti.github.io/changing-climate/' target='_blank' rel='noopener noreferrer' onClick={handleClick3}>Changing climate</a></li>
-            <li><a href='https://rohammaiti.github.io/extreme-weather/' target='_blank' rel='noopener noreferrer' onClick={handleClick4}>Effects and extreme weather</a></li>
+            <li><a href='https://rohammaiti.github.io/Evidences/' target='_blank' rel='noopener noreferrer' >Evidences</a></li>
+            <li><a href='https://rohammaiti.github.io/weather-vs-climate/' target='_blank' rel='noopener noreferrer' >What is weather and climate</a></li>
+            <li><a href='https://rohammaiti.github.io/changing-climate/' target='_blank' rel='noopener noreferrer' >Changing climate</a></li>
+            <li><a href='https://rohammaiti.github.io/extreme-weather/' target='_blank' rel='noopener noreferrer' >Effects and extreme weather</a></li>
           </ul>
           <img srcset={asset2} className="pic" alt="WeatherChange" />
 
@@ -290,10 +180,10 @@ function App() {
           <p className='shift'>Wecome to the Solutions section. In this section we discuss about various solutions and actions that has been taken globally to combat the changing climate. </p>
           <ul>
             <p>Select a topic</p>
-            <li><a href="https://rohammaiti.github.io/proposed-activity/" target='_blank' rel='noopener noreferrer' onClick={handleClick5}>Proposed activities for tackling climate change</a></li>
-            <li><a href="https://rohammaiti.github.io/solutions-underway/" target='_blank' rel='noopener noreferrer' onClick={handleClick6}>Solutions underway</a></li>
-            <li><a href="https://rohammaiti.github.io/solutions-implemented/" target='_blank' rel='noopener noreferrer' onClick={handleClick7}>Solutions implemented</a></li>
-            <li><a href="https://rohammaiti.github.io/ongoing-activities/" target='_blank' rel='noopener noreferrer' onClick={handleClick8}>Ongoing activities</a></li>
+            <li><a href="https://rohammaiti.github.io/proposed-activity/" target='_blank' rel='noopener noreferrer' >Proposed activities for tackling climate change</a></li>
+            <li><a href="https://rohammaiti.github.io/solutions-underway/" target='_blank' rel='noopener noreferrer' >Solutions underway</a></li>
+            <li><a href="https://rohammaiti.github.io/solutions-implemented/" target='_blank' rel='noopener noreferrer' >Solutions implemented</a></li>
+            <li><a href="https://rohammaiti.github.io/ongoing-activities/" target='_blank' rel='noopener noreferrer' >Ongoing activities</a></li>
           </ul>
           <img srcset={asset3} className="pic" alt="Solutions" />
           <hr />
@@ -303,9 +193,9 @@ function App() {
           <p className='shift'>Welcome to Explore section. In this section, we will get materials to teach younger generations about our planet through quizes, videos and images!</p>
           <ul>
             <p>Select a topic</p>
-            <li><a href='https://rohammaiti.github.io/Gallery/' target='_blank' rel='noopener noreferrer' onClick={handleClick9}>Earth Gallery</a></li>
-            <li><a href='https://rohammaiti.github.io/quiz/' target='_blank' rel='noopener noreferrer' onClick={handleClick10}>Quiz Section</a></li>
-            <li><a href='https://rohammaiti.github.io/videos/' target='_blank' rel='noopener noreferrer' onClick={handleClick11}>Learning videos</a></li>
+            <li><a href='https://rohammaiti.github.io/Gallery/' target='_blank' rel='noopener noreferrer' >Earth Gallery</a></li>
+            <li><a href='https://rohammaiti.github.io/quiz/' target='_blank' rel='noopener noreferrer' >Quiz Section</a></li>
+            <li><a href='https://rohammaiti.github.io/videos/' target='_blank' rel='noopener noreferrer' >Learning videos</a></li>
           </ul>
           <img srcset={asset4} className="pic" alt="Solutions" />
 
